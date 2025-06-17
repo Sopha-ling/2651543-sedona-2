@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Sofiya Zemlyanskaya](https://up.htmlacademy.ru/htmlcss-individual/2/user/2651543).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Черненков](https://htmlacademy.ru/study).
 
 ---
 
