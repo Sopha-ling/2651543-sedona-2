@@ -1,0 +1,39 @@
+.header {
+  position: relative;
+
+  width: 100%;
+}
+
+.header__wrapper {
+  height: 56px;
+}
+
+.header__logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  display: block;
+  width: 102px;
+  height: 85px;
+  z-index: 20;
+
+  transform: translateX(-50%);
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 187px;
+    height: 96px;
+  }
+}
+
+.header__logo img {
+  width: 100%;
+}

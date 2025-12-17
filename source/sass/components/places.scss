@@ -1,0 +1,157 @@
+.places {
+  @media (min-width: $tablet-width) {
+    padding: 0 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+  }
+}
+
+.places__list {
+  @media (min-width: $tablet-width) {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.places__item-container {
+  position: relative;
+
+  display: block;
+  padding: 22px 20px 15px;
+
+  border-bottom: 1px solid #e5e5e5;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    min-width: 324px;
+    min-height: 267px;
+    float: left;
+
+    padding: 0;
+  }
+}
+
+.places__item-container:first-child {
+  @media (min-width: $tablet-width) {
+    grid-column: 1 / -1;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-column: 1 / -1;
+  }
+}
+
+.places__description {
+  text-align: left;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 30px 9px 20px;
+
+    background-color: $grey-form;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    padding-right: 22px;
+    padding-bottom: 12px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
+
+.places__item-container:first-child .places__description {
+  @media (min-width: $tablet-width) {
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+}
+
+.places__item-container--first .places__image {
+  width: 100%;
+  min-height: 400px;
+}
+
+.places__title-container {
+  padding: 10px 0 5px;
+
+  @media (min-width: $tablet-width) {
+    width: 295px;
+  }
+}
+
+.places__title {
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.places__text {
+  margin: 0;
+
+  color: $text-color;
+  font-weight: 400;
+  text-transform: initial;
+
+  @media (min-width: $desktop-width) {
+    color: #ffffff;
+  }
+}
+
+.places__like-count {
+  min-height: 21px;
+  margin-left: 0;
+  padding: 10px 0 3px 38px;
+
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 700;
+
+  background-color: transparent;
+  background-image: url("../img/like-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-size: 23px 21px;
+  border: none;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 37px;
+  }
+
+  @media (min-width: $desktop-width) {
+    color: #ffffff;
+
+    background-color: transparent;
+    background-image: url("../img/like-icon-white.svg");
+    background-repeat: no-repeat;
+    background-position: 0 center;
+  }
+}
+
+.places__image-wrapper {
+  width: auto;
+}
+
+.places__image-wrapper img {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
