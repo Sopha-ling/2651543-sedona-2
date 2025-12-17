@@ -184,11 +184,11 @@ img {
 }
 
 .navigation-user-link-search::before {
-  background-image: url("../images/svg/icon-search.svg");
+  background-image: url("../img/svg/icon-search.svg");
 }
 
 .navigation-user-link-favorite::before {
-  background-image: url("../images/svg/icon-heart.svg");
+  background-image: url("../img/svg/icon-heart.svg");
 }
 
 .like-quantity {
@@ -372,7 +372,7 @@ img {
   text-align: center;
 
   background-color: rgba(0, 0, 0, 0.8);
-  background-image: url("../images/svg/bg-mask.svg"), url("../images/bg-header-home.jpg");
+  background-image: url("../img/svg/bg-mask.svg"), url("../img/bg-header-home.jpg");
   background-size: 100% auto, cover;
   background-position: bottom left, top left;
   background-repeat: no-repeat;
@@ -551,15 +551,15 @@ img {
 }
 
 .relax-icon-home::before {
-  background-image: url("../images/svg/icon-home.svg");
+  background-image: url("../img/svg/icon-home.svg");
 }
 
 .relax-icon-food::before {
-  background-image: url("../images/svg/icon-food.svg");
+  background-image: url("../img/svg/icon-food.svg");
 }
 
 .relax-icon-surprise::before {
-  background-image: url("../images/svg/icon-surprise.svg");
+  background-image: url("../img/svg/icon-surprise.svg");
 }
 
 .hostel-search {
@@ -572,7 +572,7 @@ img {
 
 .footer-top.home {
   background-color: rgba(0, 0, 0, 0.8);
-  background-image: url("../images/bg-subscribe-home.jpg");
+  background-image: url("../img/bg-subscribe-home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -747,7 +747,7 @@ img {
   padding: 35px 70px 70px;
 
   background-color: rgba(0, 0, 0, 0.8);
-  background-image: url("../images/bg-header-catalog.jpg");
+  background-image: url("../img/bg-header-catalog.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -791,7 +791,7 @@ img {
   width: 8px;
   height: 21px;
 
-  background-image: url("../images/svg/breadcrumbs-separator.svg");
+  background-image: url("../img/svg/breadcrumbs-separator.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -804,7 +804,7 @@ img {
   width: 13px;
   height: 21px;
 
-  background-image: url("../images/svg/icon-bredcrumbs-home.svg");
+  background-image: url("../img/svg/icon-bredcrumbs-home.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -910,7 +910,7 @@ img {
   width: 13px;
   height: 11px;
 
-  background-image: url("../images/svg/checkbox.svg");
+  background-image: url("../img/svg/checkbox.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1086,7 +1086,7 @@ img {
   color: #333333;
 
   background-color: inherit;
-  background-image: url("../images/svg/select-arrow.svg");
+  background-image: url("../img/svg/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 21px center;
   border: 2px solid rgba(229, 229, 229, 1);
@@ -1177,15 +1177,15 @@ img {
 }
 
 .layout-type-tile::after {
-  background-image: url("../images/svg/icon-filter-tile.svg");
+  background-image: url("../img/svg/icon-filter-tile.svg");
 }
 
 .layout-type-card::after {
-  background-image: url("../images/svg/icon-filter-card.svg");
+  background-image: url("../img/svg/icon-filter-card.svg");
 }
 
 .layout-type-list::after {
-  background-image: url("../images/svg/icon-filter-list.svg");
+  background-image: url("../img/svg/icon-filter-list.svg");
 }
 
 .layout-type-link.view-selected {
@@ -1264,7 +1264,7 @@ img {
   display: block;
   height: 17px;
 
-  background-image: url("../images/svg/star.svg");
+  background-image: url("../img/svg/star.svg");
   background-repeat: space no-repeat;
   background-position: center;
   background-size: contain;
@@ -1493,7 +1493,7 @@ img {
   color: #000000;
 
   background-color: #f2f2f2;
-  background-image: url("../images/svg/date.svg");
+  background-image: url("../img/svg/date.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
   border: none;
@@ -1784,7 +1784,7 @@ img {
   width: 19px;
   height: 9px;
 
-  background-image: url("../images/svg/triangle.svg");
+  background-image: url("../img/svg/triangle.svg");
 
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
