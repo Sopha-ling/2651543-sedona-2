@@ -16,5 +16,10 @@ closeBtn.addEventListener("click", function(){
   modalWindow.classList.add("modal-container-close");
 })
 
+const handleKeydown = (e) => {
+  if(e.keyCode === 27) {
+    modalWindow.classList.add("modal-container-close");
+  }
+}
 
 document.addEventListener('keydown', handleKeydown);
